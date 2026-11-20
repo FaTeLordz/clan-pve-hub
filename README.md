@@ -39,7 +39,7 @@ Putting this on GitHub gives you full version control and lets you deploy/update
 3. Name it (e.g. `clan-pve-hub` or `zombies-leaderboard`).
 4. Choose **Private** (recommended) or Public.
 5. **Do not** initialize with a README, .gitignore, or license (we already created them for you).
-6. Click **Create repository** and copy your repository URL (e.g. `https://github.com/yourusername/clan-pve-hub.git`).
+6. Click **Create repository** and copy your repository URL (e.g. `https://github.com/fatelordz/clan-pve-hub.git`).
 
 ### 2. Initialize Git and Push Your Files (Run in this folder):
 Open your terminal inside `cod-zombies-clan-hub`:
@@ -48,7 +48,7 @@ git init
 git add .
 git commit -m "Initial commit of Clan Survival Hub with CoD, Halo, and Gears"
 git branch -M main
-git remote add origin https://github.com/yourusername/clan-pve-hub.git
+git remote add origin https://github.com/fatelordz/clan-pve-hub.git
 git push -u origin main
 ```
 
@@ -119,7 +119,7 @@ Because ZimaOS is built on Debian Linux with native Docker, you can clone your G
    ```
 3. Clone your GitHub repository:
    ```bash
-   git clone https://github.com/yourusername/clan-pve-hub.git
+   git clone https://github.com/fatelordz/clan-pve-hub.git
    cd clan-pve-hub
    ```
 4. Create your `.env` file:
