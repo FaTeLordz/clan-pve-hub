@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  zombies-hub:
+    container_name: cod-zombies-clan-hub
+    build: .
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - DATA_DIR=/app/data
+      - DISCORD_BOT_TOKEN=${DISCORD_BOT_TOKEN}
+      - DISCORD_CLIENT_ID=${DISCORD_CLIENT_ID}
+      - DISCORD_GUILD_ID=${DISCORD_GUILD_ID}
+      - ADMIN_CHANNEL_ID=${ADMIN_CHANNEL_ID}
+      - PUBLIC_ANNOUNCE_CHANNEL_ID=${PUBLIC_ANNOUNCE_CHANNEL_ID}
+    volumes:
+      - ./data:/app/data
