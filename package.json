@@ -7,7 +7,8 @@
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
     "register-commands": "node src/bot/register.js",
-    "seed-samples": "node src/seed-samples.js"
+    "seed-samples": "node src/seed-samples.js",
+    "test": "node tests/run-tests.js"
   },
   "dependencies": {
     "better-sqlite3": "^11.7.0",
